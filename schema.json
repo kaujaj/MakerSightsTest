@@ -1,0 +1,71 @@
+{
+    "productsData":[
+        {
+            "productID": 1,
+            "productName":"Cool Shirt",
+            "categoryID" : 1,
+            "brandID": 1,
+            "productTypeID": 1,
+            "productPrice" : 1800,
+            "productImage" : "image data or file path"
+        },
+        {
+            "productID": 1,
+            "productName":"Cool Pants",
+            "categoryID" : 2,
+            "brandID": 2,
+            "productTypeID": 2,
+            "productPrice" : 1800,
+            "productImage" : "image data or file path"
+        },
+        {
+            "productID": 1,
+            "productName":"Dope Shirt",
+            "categoryID" : 1,
+            "brandID": 1,
+            "productTypeID": 2,
+            "productPrice" : 1800,
+            "productImage" : "image data or file path"
+        },
+        {
+            "productID": 1,
+            "productName":"Dope Pants",
+            "categoryID" : 2,
+            "brandID": 3,
+            "productTypeID": 1,
+            "productPrice" : 1800,
+            "productImage" : "image data or file path"
+        }
+    ], 
+    "brandData": [
+        {
+            "brandID":1,
+            "brandName" : "Brand 1"
+        },
+        {
+            "brandID":2,
+            "brandName" : "Brand 2"
+        }
+    ],
+    "productTypeData":[
+        {
+            "typeID":1,
+            "type": "Parent Product"
+        },
+        {
+            "typeID":2,
+            "type": "Child Product"
+        }
+    ],
+    "categoryData":[
+        {
+            "categoryID":1,
+            "category": "Pants"
+        },
+        {
+            "categoryID":2,
+            "category": "Shirts"
+        }
+    ]
+
+}
